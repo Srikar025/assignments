@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BG Color Changer</title>
+</head>
+<style>
+    body{
+        text-align:center;
+        font-family:Arial,sans-serif;
+        padding:20px;
+        transition:background-color 0.3s ease;
+
+    }
+    /* #color-panel{
+        margin-top: 20px;
+        display:flex;
+        gap:10px;
+        justify-content:center;
+
+
+    } */
+    /* #color-panel button{
+        padding: 10px 20px;
+
+        border-radius: 6px;
+        border: 1px solid #333;
+        cursor: pointer;
+        font-weight: bold;
+
+
+    } */
+    
+
+    
+    
+</style>
+
+
+
+<!-- <script>
+  const panel = document.getElementById('color-panel');
+
+  panel.addEventListener('click', function (event) {
+    // Check if a button was clicked
+    if (event.target.tagName === 'BUTTON') {
+      const color = event.target.getAttribute('data-color');
+      document.body.style.backgroundColor = color;
+    }
+  });
+</script> -->
+
+
+<body>
+  <h1>Background Color Changer</h1>
+  <div id="color-panel">
+    <button data-color="red" style="background:red; color:white;">Red
+    </button>
+    <button data-color="green" style="background:green;color:white;">Green</button>
+    <button data-color="blue" style="background:blue; color:white;">Blue</button>
+  </div>
+
+  <script>
+  const redButton = document.querySelector('#color-panel button:nth-child(1)');
+  const greenButton = document.querySelector('#color-panel button:nth-child(2)');
+  const blueButton = document.querySelector('#color-panel button:nth-child(3)');
+
+  redButton.addEventListener('click', function () {
+    document.body.style.backgroundColor = 'red';
+  });
+
+  greenButton.addEventListener('click', function () {
+    document.body.style.backgroundColor = 'green';
+  });
+
+  blueButton.addEventListener('click', function () {
+    document.body.style.backgroundColor = 'blue';
+  });
+</script>
+
+
+</body>
+</html>

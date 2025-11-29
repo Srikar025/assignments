@@ -26,4 +26,7 @@ function wait1(t) {
   }
   
   module.exports = calculateTime;
+
+calculateTime(2, 1, 5).then(console.log);
+
   

@@ -31,5 +31,6 @@ function call(t1, t2, t3) {
             return wait3(t3);
         });
 }
+calculateTime(1,2,3).then(console.log)
 
 module.exports = calculateTime;

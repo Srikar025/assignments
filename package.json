@@ -1,0 +1,23 @@
+{
+  "name": "assignments-1",
+  "version": "1.0.0",
+  "description": "100xdevs Cohort 3 Assignments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Srikar025/assignments.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Srikar025/assignments/issues"
+  },
+  "homepage": "https://github.com/Srikar025/assignments#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
